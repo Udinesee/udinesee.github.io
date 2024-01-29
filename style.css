@@ -1,12 +1,27 @@
+.container .navbar-brand {
+  font-weight: 700;
+}
+
+.container span {
+  color: orange;
+}
+
 .jumbotron {
-    padding-top: 6rem;
-    background-color: #e2edff;
+  padding-top: 6rem;
+  background-color: #e2edff;
 }
 
 #projects {
-    background-color: #e2edff;
+  background-color: #e2edff;
 }
 
 section {
-    padding-top: 4rem;
+  padding-top: 4rem;
+}
+
+.container .line-clamp {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  -webkit-line-clamp: 2; /* Sesuaikan dengan jumlah baris yang diinginkan */
 }
