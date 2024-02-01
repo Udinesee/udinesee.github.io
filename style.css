@@ -25,3 +25,19 @@ section {
   overflow: hidden;
   -webkit-line-clamp: 2; /* Sesuaikan dengan jumlah baris yang diinginkan */
 }
+
+.icon {
+  transition: opacity .3s;
+}
+
+.icon:hover {
+  opacity: .5;
+}
+
+.nickname {
+  transition: opacity .3s;
+}
+
+.nickname:hover {
+  opacity: .5;
+}
